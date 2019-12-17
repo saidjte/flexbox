@@ -1,0 +1,83 @@
+@import url("fonts/JEEPNEY/font.css");
+.clube {
+    width: 30%;
+    margin: 1%;
+    background-color: #4bcffa;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.txt{
+    text-align: center;
+    font-family:"JEEPNEY";
+    line-height:1px;
+    font-size: 100px;
+    color: #200;
+
+}
+.header{
+    height: 70px;
+    background: #200;
+    
+    color: #fff;
+
+}
+.menu{
+    text-align: center;
+    line-height: 70px;
+
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+    font-family: 'Roboto';
+    
+
+}
+.tooo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.div1{
+    padding: 8px;
+    text-align: center;
+    border: 3px solid #000;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: red;
+}
+.img1{
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+a{
+    text-decoration: none;
+}
+.clube img {
+    width: 66%;
+}
+
+@media screen and (max-width: 640px){
+    section {
+        flex-direction: column;
+
+    }
+    .clube {
+        width: 100%;
+    }
+}

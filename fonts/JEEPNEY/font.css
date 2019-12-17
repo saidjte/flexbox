@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'JEEPNEY';
+	src: url('./JEEPNEY.eot');
+	src: local('JEEPNEY'), url('./JEEPNEY.woff') format('woff'), url('./JEEPNEY.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_323">Text with this font applied</p> */
+.fontsforweb_fontid_323 {
+	font-family: 'JEEPNEY' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
