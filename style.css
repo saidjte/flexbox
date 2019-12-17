@@ -1,0 +1,12 @@
+#contenteur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#ht
+{
+    display: flex;
+    justify-content: center;
+}
